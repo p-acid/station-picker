@@ -1,3 +1,5 @@
+import Providers from "./providers";
+
 const RootLayout = ({
   children,
 }: Readonly<{
@@ -5,7 +7,9 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 };
