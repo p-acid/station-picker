@@ -1,0 +1,1 @@
+# Stub NextJS pages folder
